@@ -11,8 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        dark: "var(--dark)",
+        green: "var(--green)",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwind-scrollbar-hide")
+  ],
 } satisfies Config;

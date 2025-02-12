@@ -4,18 +4,51 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000;
+  --dark:#191A23;
+  --green:#B9FF66;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000;
+    --dark:#191A23;
+    --green:#B9FF66;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+h1,
+h2,
+h3{
+  font-weight: 500;
+}
+
+h1{
+  font-size: 3.75rem;
+  
+
+}
+h2{
+  font-size: 2.5rem;
+ 
+
+}
+h3{
+  font-size: 1.875rem;
+  
+}
+p{
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.grey{
+  background-color: #F3F3F3;
 }
