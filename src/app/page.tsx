@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <CompanyLogos />
       <ServicesSection />
-      {/* <CaseStudiesSection /> */}
+      <CaseStudiesSection />
       <OurWorkingProcessSection />
       <TeamSection />
       <TestimonialsSection />
