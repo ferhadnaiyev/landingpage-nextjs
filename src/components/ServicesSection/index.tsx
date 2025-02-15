@@ -1,6 +1,7 @@
 import React from 'react'
 import SubHeading from '../SubHeading'
 import ServiceCard from '../ServiceCard'
+import ServicesCTABlock from '../ServicesCTABlock'
 
 const SubHeadingProps = {
   sectionTitle: "Services",
@@ -10,60 +11,54 @@ const serviceCards = [
   {
     id: 1,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "",
     imageUrl: "/images/illustration.svg"
 
   },
   {
     id: 2,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "bg-green",
     imageUrl: "/images/illustration.svg"
 
   },
   {
     id: 3,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "bg-dark",
     imageUrl: "/images/illustration.svg"
 
   },
   {
     id: 4,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "bg-grey",
     imageUrl: "/images/illustration.svg"
 
   },
   {
     id: 5,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "bg-green",
     imageUrl: "/images/illustration.svg"
 
   },
   {
     id: 6,
     theme: "dark",
-    title1: "Search Engine",
-    title2: "optimization",
+    title: "Search Engine",
     linkUrl: "",
-
+    bgColor: "bg-dark",
     imageUrl: "/images/illustration.svg"
 
   },
@@ -71,7 +66,7 @@ const serviceCards = [
 
 function ServicesSection() {
   return (
-    <section className='h-dvh flex flex-col gap-[40px]'>
+    <section className='flex flex-col gap-[40px]'>
       <SubHeading {...SubHeadingProps} />
       <div className='grid gap-[40px] sm:grid-cols-2'>
         {
@@ -80,7 +75,7 @@ function ServicesSection() {
           ))
         }
       </div>
-
+      <ServicesCTABlock />
     </section>
   )
 }

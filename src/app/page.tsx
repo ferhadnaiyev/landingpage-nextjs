@@ -1,6 +1,10 @@
 import PrimaryButton from "@/components/Buttons/PrimaryButton";
+import CaseStudiesSection from "@/components/CaseStudiesSection";
 import CompanyLogos from "@/components/CompanyLogos";
+import OurWorkingProcessSection from "@/components/OurWorkingProcessSection";
 import ServicesSection from "@/components/ServicesSection";
+import TeamSection from "@/components/TeamSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,6 +27,10 @@ export default function Home() {
       </div>
       <CompanyLogos />
       <ServicesSection />
+      {/* <CaseStudiesSection /> */}
+      <OurWorkingProcessSection />
+      <TeamSection />
+      <TestimonialsSection />
     </main>
   );
 }

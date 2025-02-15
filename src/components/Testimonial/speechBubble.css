@@ -1,0 +1,37 @@
+
+.speech-bubble {
+    position: relative;
+    margin: 1em 0 3em;
+    border: 2px solid var(--green);
+    color: white;
+    background: var(--dark);
+   
+
+    
+}
+.speech-bubble:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: var(--green) transparent;
+    display: block;
+    width: 0;
+   
+}
+
+.speech-bubble:after {
+    content: " ";
+    position: absolute;
+    bottom: -18px;
+    left: 50px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: var(--dark) transparent;
+    display: block;
+    width: 0;
+    
+    
+}

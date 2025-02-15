@@ -7,6 +7,7 @@
   --foreground: #000;
   --dark:#191A23;
   --green:#B9FF66;
+  --grey:#F3F3F3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,22 +16,63 @@
     --foreground: #000;
     --dark:#191A23;
     --green:#B9FF66;
+    --grey:#F3F3F3;
   }
 }
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
 
+.box-shadow{
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 1);
+
+
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'Space Grotesk', sans-serif;
 
 }
+
+
+
+
 h1,
 h2,
-h3{
+h3,
+h4{
   font-weight: 500;
 }
 
-h1{
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem); /* Küçük: 2.5rem | Orta: %6 vw | Büyük: 4.5rem */
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem); /* Küçük: 2rem | Orta: %5 vw | Büyük: 3.5rem */
+}
+
+h3 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem); /* Küçük: 1.5rem | Orta: %4 vw | Büyük: 2.5rem */
+}
+h4{
+  font-size:clamp(1.25rem,3vw,2rem);
+}
+
+p {
+  font-size: clamp(1rem, 2.5vw, 1.125rem); /* Küçük: 1rem | Orta: %2.5 vw | Büyük: 1.5rem */
+}
+
+
+
+
+
+/* h1{
   font-size: 3.75rem;
   
 
@@ -47,8 +89,5 @@ h3{
 p{
   font-size: 1.125rem;
   font-weight: 400;
-}
+} */
 
-.grey{
-  background-color: #F3F3F3;
-}
