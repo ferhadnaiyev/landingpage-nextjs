@@ -48,25 +48,44 @@ h3,
 h4{
   font-weight: 500;
 }
-
-h1 {
-  font-size: clamp(2.5rem, 6vw, 4.5rem); /* Küçük: 2.5rem | Orta: %6 vw | Büyük: 4.5rem */
+.h1-fluid {
+  font-size: clamp(40px, 4.5vw, 70px);
 }
 
-h2 {
-  font-size: clamp(2rem, 5vw, 3.5rem); /* Küçük: 2rem | Orta: %5 vw | Büyük: 3.5rem */
+
+.h2-fluid {
+  font-size: clamp(24px, 3vw, 40px);
 }
 
-h3 {
-  font-size: clamp(1.5rem, 4vw, 2.5rem); /* Küçük: 1.5rem | Orta: %4 vw | Büyük: 2.5rem */
-}
-h4{
-  font-size:clamp(1.25rem,3vw,2rem);
+.h3-fluid {
+  font-size: clamp(20px, 2.5vw, 30px);
 }
 
-p {
-  font-size: clamp(1rem, 2.5vw, 1.125rem); /* Küçük: 1rem | Orta: %2.5 vw | Büyük: 1.5rem */
+.h4-fluid {
+  font-size: clamp(16px, 2vw, 20px);
 }
+
+
+.p-fluid {
+  font-size: clamp(14px, 1.8vw, 18px);
+}
+
+.logo-responsive {
+  width: clamp(150px, 25vw, 219px);
+  height: clamp(40px, 10vw, 56px);
+}
+
+.primary-button-responsive {
+  padding: clamp(12px, 2.5vw, 20px) clamp(20px, 3vw, 35px);
+  font-size: clamp(16px, 2vw, 20px);
+  
+  
+}
+.sidebar-button-responsive {
+  width: clamp(40px, 8vw, 56px);
+  height: clamp(40px, 8vw, 56px);
+}
+
 
 
 

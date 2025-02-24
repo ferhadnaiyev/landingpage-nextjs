@@ -4,27 +4,27 @@ const navbarLinks = [
     {
         id: 1,
         text: "About us",
-        url: "aboutus"
+        url: ""
     },
     {
         id: 2,
         text: "Services",
-        url: "aboutus"
+        url: ""
     },
     {
         id: 3,
         text: "Use Cases",
-        url: "aboutus"
+        url: ""
     },
     {
         id: 4,
         text: "Pricing",
-        url: "aboutus"
+        url: ""
     },
     {
         id: 5,
         text: "Blog",
-        url: "aboutus"
+        url: ""
     },
 ]
 

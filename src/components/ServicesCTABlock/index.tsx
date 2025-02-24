@@ -6,10 +6,10 @@ function ServicesCTABlock() {
     return (
         <div className='relative overflow-visible flex justify-around bg-grey  w-full  py-[60px] rounded-[45px]  h-[347px]'>
             <div className='flex flex-col items-start justify-between'>
-                <h3>
+                <h3 className='h3-fluid'>
                     Let’s make things happen
                 </h3>
-                <p className='line-clamp-3 w-[45ch]'>
+                <p className='line-clamp-3 w-[45ch] p-fluid'>
                     Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.
                 </p>
                 <PrimaryButton >

@@ -8,7 +8,7 @@ function SubHeading({ sectionTitle, sectionDescription }: SubHeadingProps) {
     const lineLength = sectionDescription.length / 2
     return (
         <div className='flex flex-col sm:flex-row gap-[20px] sm:gap-[40px] mt-[70px] justify-start items-center'>
-            <h2 className='bg-green flex-nowrap flex px-[7px] rounded-[7px]'>
+            <h2 className='h2-fluid bg-green flex-nowrap flex px-[7px] rounded-[7px]'>
                 {sectionTitle}
             </h2>
             <p className={` flex items-center justify-center break-words`}

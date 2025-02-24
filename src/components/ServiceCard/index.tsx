@@ -20,10 +20,10 @@ function ServiceCard({ bgColor, title, linkUrl, imageUrl }) {
             <div className='flex flex-col gap-[93px]'>
                 <div className='flex flex-col gap-[0.5px]'>
 
-                    <h3 className={`${((bgColor == "bg-grey") || (bgColor == "")) ? "bg-green" : "bg-white"} rounded-[7px] px-[7px] w-max relative left-[10px]`}>
+                    <h3 className={`${((bgColor == "bg-grey") || (bgColor == "")) ? "bg-green" : "bg-white"} rounded-[7px] px-[7px] w-max relative left-[10px] h3-fluid`}>
                         {title1}
                     </h3>
-                    <h3 className={`${((bgColor == "bg-grey") || (bgColor == "")) ? "bg-green" : "bg-white"} bg-green rounded-[7px] px-[7px] w-max`}>
+                    <h3 className={`${((bgColor == "bg-grey") || (bgColor == "")) ? "bg-green" : "bg-white"} bg-green rounded-[7px] px-[7px] w-max h3-fluid`}>
                         {title2}
                     </h3>
                 </div>
